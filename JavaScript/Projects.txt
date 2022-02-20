@@ -1,0 +1,5 @@
+// Make a project that consumes an external API 
+
+// Build a landing page that is appealing, converting and great. Really Visually pleasing. 
+
+// 

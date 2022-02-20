@@ -1,0 +1,11 @@
+The <canvas> element is used to display some data as a graph on one of the web pages. 
+Data stored on LocalStorage is vulnerable to XSS attacks. 
+When an issue to display on mobile devices occur, you can fix it with  Window.matchMedia() or MediaQueryList.addListener() tags
+Float lets inline elemnents wrap around it.
+Intrinsic size in css is an element based solely on its content. 
+Noscript makes the content inside an element to display if the browser used doesn't support scripts.
+
+ You created an add to cart button on your web page. When the user clicks on the button, you want to pass the order ID as a parameter to the cart page you use 
+ "
+ <a href="/cart.html?order_id=2122">Click to add to cart</a>`
+ "

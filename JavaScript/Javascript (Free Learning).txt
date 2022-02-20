@@ -1,0 +1,108 @@
+BOOKLIST APPLICATION
+// Class 
+A class is a blueprint for creating objects. A class encapsulates data and functions that manipulate data. Unlike other programming languages such as Java and C#. Javascript classes are syntactic sugar over the prototyapl inheritance. Defined with the class keyword. 
+
+//Explanation of BOOKLIST APP CODES
+2.Class, 
+defines class (book)
+3.constructor
+a constructor is a function that creates an instance of a class which is typically called an 'object', in Javascript. A constructor gets called when you declare an object using the new keyword. The purpose of the constructor is to create an object and set values if there are any object properties present/ 
+
+4-6.this 
+Assigns parameters to the property of the objects???
+What are methods? How does instantiation work? And how does static prevent it?
+
+
+FILTERABLE LIST
+In my understanding, this is the sequence of events you shhould have in mind while developing a filterm list 
+
+
+// SCOPING AND HOISTING
+SCOPE
+A scope is a region of the program where a variable can be accessed. 
+(Local and global scope)
+- JavaScript does not have block-level-scope, it has function-level-scope. This means that only functions create new scopes, not blocks like if statements of loops. 
+
+That is:
+let age = 18;
+console.log(age);
+
+if(true){
+     age = 12;
+     console.log(age);
+}
+
+console.log(age);
+
+if(true){
+  (function(){
+      let age = 14;
+        console.log(age);
+    })();
+}
+
+console.log(age);
+
+The Output: 
+18 
+12
+12
+14
+12
+
+Only functions can create a new scope, everything within that scope is only accessible in the scope, else, everything has a global scope. 
+???
+
+--- ‘let’ and ‘const’, to declare block-scoped variables. When a variable is declared using ‘const’ or ‘let’, it is visible only inside the particular block in which it is declared. For example:
+
+var x = 10;
+console.log(x);
+  
+function test()
+{
+    var x = 20;
+    console.log(x);
+  
+    if (x > 10) {
+        let x = 30;
+        console.log(x);
+    }
+  
+    console.log(x);
+}
+  
+test();
+console.log(x);
+
+Output :
+10
+20
+30
+20
+10
+
+///////////////
+var (function-level-scope)
+let (block-level-scope)
+const (block-level-scope)
+
+
+
+HOISTING
+Hoisting is JavaScript’s default behavior of moving declarations to the top of their containing scope.
+This works only for variables 
+
+--- Practices
+All variables and constants that need to be visible within the scope of a particular function should be declared using ‘var’ and ‘const’ keywords respectively at the top of that function.
+Inside blocks (conditional statements or loops) variables and constants should be declared on the top of the block using ‘let’ and ‘const’ respectively.
+If in a particular scope multiple variables or constants need to be declared, then declare them in one go by using a single ‘var’ or ‘let’ or ‘const’ keyword with comma separated identifier names,
+e.g.,
+var x, y, z; // declaring function-scoped variables
+let a, b, c; // declaring block-scoped variables
+const u, v, w; // declaring block-scoped constants
+Though the last point has nothing to do with the consequences of variable hoisting, it is a better practice to keep it in mind while writing code to keep the code clean.
+
+Function Declaration and Function Expression 
+-- The two ways in which functions can be declared
+
+-- Arrow functions are not hoisted

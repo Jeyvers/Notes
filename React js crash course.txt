@@ -1,0 +1,21 @@
+// Learn react by building a hands on project
+React is a javascript library (not a framework) for building user interfaces. It runs on the client as a SPA (Single Page App). Can be used to build fulll stack applications using (MongoDB, PHP Laravel, Django Python, Express (backend framework) )
+Node.Js is a javascript runtime.
+Angular has a few more functionalities than react. 
+
+WHY REACT?
+a. Gives you a way to structure the "view" layer of your application
+b. Reusable components with their own state 
+c. JSX - Dynamic markup 
+d. Interactive UIs with virtual DOM 
+e. Performance and testing 
+f.Very popular in the industry
+
+-- what is VMC 
+
+WHAT YOU SHOULD KNOW FIRST?
+Javascript:
+- Data types, variables , functions, loops, etc. 
+- Promises & asynchronous  programming 
+- Array methods life forEach() & Map(), Filter (doing algorithms are a very good way to practice these)
+Fetch API & making HTTP requests

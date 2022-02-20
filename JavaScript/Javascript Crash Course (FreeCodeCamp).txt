@@ -1,0 +1,220 @@
+Javascript Crash Course (FreeCodeCamp) -3hrs
+
+FOCUS
+Javascript:
+- Data types, variables , functions, loops, etc. 
+- Promises & asynchronous  programming 
+- Array methods life forEach() & Map(), Filter (doing algorithms are a very good way to practice these)
+Fetch API & making HTTP requests
+
+
+WHAT COURSE TEACHES
+-Comments 
+
+
+
+//DATA TYPES
+Data is anything that's meaningful to the computer (in computer science)
+
+
+Data types in Javascript:
+- Undefined (anything undefined)
+- Null (Nothing)
+- Boolean ( True/False )
+- String (Set of characters)
+- Symbol (primitive value which is unique)
+_- Nnumber (digits)
+Object ()
+
+
+
+//DECLARING VARIABLES
+We can declare variables using the following terms 
+- var (used for strings at most)
+
+- let (does not let you declare a variable twice, scope is limited to the scope it is declared in, does not alter the first declaration outside the scope)
+
+- const (declares a read-only variable, you cannot reasign a const, use all capital letters, can mutate an array using bracket notation )
+
+Difference between above three: var can be used throughout the code, let withing a certain range and const is a constant.
+
+
+
+//FAIR NOTES
+Declaring & assigning a variable
+-Assigning uses the assignment operator to assign value to a declared variables. 
+
+var a = 15;
+
+var a; //declaring a variable
+
+a = 15; initializing the variable
+
+Operating variables. Multiplication, Division, Addition & Subtraction & Modulus (remainder operator).
+
+Increment and decrement operations (prefix & postfix)
+
+Compound assignments (Adding numbers to variables e.g +=)
+
+
+
+//ESCAPE CHARACTERS
+ \" quotation marks 
+..can use single quotes in order to easily add double quotes to your strings. 
+..using backticks before and after the double or single quote. 
+Concantenating with the plus operator. 
+
+
+
+//STRINGS are IMPUTABLE 
+Individual letters of strings cannot be changed.
+
+//MULTIDIMENTIONAL ARRAYS (NESTED ARRAYS)
+Acessing elements of arrays with Indexes
+Modifying arrays with Indexes
+
+
+..you can append data to the end of the array with the push function. eg 
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]);
+
+..you can remove an element from the array with the pop & shift function. Shift removes the first element, while pop removes the last element. 
+::
+var ourArray = [1, 2, 3];
+var removedFromOurArray = ourArray.pop();
+
+removedFromOurArray now equals 3, and ourArray now equals [1, 2]
+
+...unshift adds an element to the beginning of the array. 
+
+
+
+
+// FUNCTIONS
+functions allow us create reusable code in js
+
+..global scope and functions
+variables defined outside the body of a function have global scope  
+
+.. a varibale defined in a function using the var keyword limits functionality with that variable to the function. You can declare a variable without using the var keyword. If you do this within a function, the variable attains a global scope, i.e it can be used throughout the js code.
+
+.. local scope and functions 
+this is the opposite of global scope and functions
+Variables declared within a JavaScript function, become LOCAL to the function.
+
+Local variables can only be accessed from within the function.
+
+..you can save returned values into a variable example: 
+var changed = 0;
+
+function change(num) {
+    return (num + 5) / 3;
+
+}
+
+changed = change(10);
+.>changed now carries the value in the return method. 
+
+In cs, a queue is an abstract data structure where items are kept in order. New items are added at the back, and old items are removed from the front.
+(JSON.stringify) changes an array to a string that can easily be printed.
+
+
+
+
+
+//DECISION MAKING (STATEMENTS)
+If , else if , switch 
+== (equal to)
+=== (strict equality operation)
+!== (strict inequality operation)
+&& (and)
+|| (or)
+>= (greater than or equal to)
+<= (less than or equal to)
+!= (inequality)
+
+..you can easily return boolean values using the boolean keyword. All return values by default are boolean values. Example: return 3>5 
+the answer will come in boolean true or false. 
+
+
+
+
+
+//OBJECTS 
+
+Objects are similar to arrays except that instead of using arrays to access data, you use properties. 
+
+"property" : "value"
+can access properties of an object using period (.) operator & bracket notation. You can use the bracket notation anytime, but it's required when the property has a space in it. ...can be assigned to variables. The period operator can be used to update number. 
+
+...you can use objects for lookup. is used to store flexible data. 
+
+..object.freeze prevents your code from mutation
+functions inside an object are called  methods.
+
+
+
+>>>>>>>>>>>>>>>>>>>>
+..arrow functions for anonymous functions 
+example:
+var magic = () => new Date();
+It is used for more complex data like map, Filter & reduce.
+They take functions like arguments.
+!
+the rest operator (...)
+compiles arguments into an array. 
+!
+
+
+
+
+
+
+//LOOPS
+while,  for, do while, for forEach
+
+//Ternary operator
+
+
+
+// W3 SCHOOLS 
+I (String Methods)
+Extracting String Parts
+a. slice(start, end)
+b. substring(start, end)
+c. substr(start, length)
+
+Slice
+--- let str = "Apple, Banana, Kiwi";
+str.slice(7, 13)     // Returns Banana
+
+Substring
+---substring() is similar to slice().
+
+The difference is that substring() cannot accept negative indexes.
+
+Substr 
+---substr() is similar to slice().
+
+The difference is that the second parameter specifies the length of the extracted part.
+
+The replace() method replaces a specified value with another value in a string
+
+A string can be converted to an array with the split() method
+
+
+// ...................................
+function toCelsius(){};
+In executing functions, toCelsius refers to the function object, and toCelsius() refers to the function result.
+
+
+MATH.FLOOR AND MATH.RANDOM
+- knowing how to search for specific codes
+- Learning how to manipulate math variables
+- Watch css videos on keyframs and animation 
+- Making a research for a project (programming)
+- Always remember to refer to the docs about something you don't understand. If possible, pick the elements of the equation apart and try to figure it out. It helps. 
+
+Math.ceil && Math.floor are similar 
+They both take floating point numbers. Ceil rounds it up to the nearest integer, while floor rounds it down to the nearest integer.
+Math.random 

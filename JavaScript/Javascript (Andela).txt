@@ -1,0 +1,37 @@
+- AJAX stands for Asynchornous JavaScript & HTML
+- caniuse.com can show you which browsers support certain features in javascript. 
+- Html (document) css (style) js (interaction)
+
+HOW TO WRITE JAVASCRIPT
+
+1. FROM SCRATCH
+- function Myfunction (){
+
+
+}
+
+2. Using Javascript Libraries and Frameworks
+
+Library Examples: JQuery, Dojo Toolkit, Prototype.js, Bootstrap, Velocity.js, D3.js
+
+Framework Examples: Angular, Backbone.js, Ember.js, Knockout, Node.js, Vue.js, React, Typescript
+
+
+Advantages : Helps your work advance faster, and easier without much stress as would from scratch. 
+
+Advantages: Helps you more productive and require certain level of knowledge.
+
+Disadvantages : Not knowing exactly what they're doing and how they were developed puts you at risk of bugs and viruses that you might not know about. Also, can take unneccesary kilobytes into your work. 
+
+
+RECAP
+The glue of the web, makes languages interactive. Not derived from Java. 
+- Interact with HTML
+- Interact with web browser 
+Interact with outher systems (like APIs)
+can do all these without refreshing the web page
+
+the language is a standard (ECMAScript) 
+- interpreted by web browsers
+
+

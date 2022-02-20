@@ -1,0 +1,17 @@
+Ctrl P (Opens command pallete which is an easy navigator to accessing the files on your editor) Typing an angle brackets makes your extensions available. 
+
+Ctrl F, @ and Ctrl + Shift + . to access certain syntaxes in your code. 
+
+ Ctrl + D (multiple times to edit multiple lines)  
+
+Alt + arrow movement to move lines up or down. Alt+Shift+arrow movement plus copy
+
+Ctrl+L highlights line by line. Ctrl+/ to toogle inline comments
+
+
+Git lens extension, and remote repository
+
+
+javascriptsimplified.com/
+
+

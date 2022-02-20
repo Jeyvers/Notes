@@ -1,0 +1,4 @@
+ kgInput.classList.add('active');
+
+ let kgInput = document.querySelector('#kgInput');
+document.querySelector('#kgInput').addEventListener('input', kgConvert)

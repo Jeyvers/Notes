@@ -1,0 +1,7 @@
+//Check out Vanilla Javascript playlist on Traversy Media
+
+DOM
+Document Object Model
+Structured representation of HTML document 
+Each node has its own properties and methods. 
+

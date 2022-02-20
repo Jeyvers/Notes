@@ -1,0 +1,89 @@
+USING BRAD TRAVERSY'S PLAYLIST
+
+JavaScript Crash Course (done)
+JavaScript DOM (1-4)    (done) - (rewatch) - (understand)
+JavaScript Booklist App (done) - rewatch - understand
+Filterable List         (done) - (rewatch) - (understand)
+Simple Weight Converter App (done) - (assignment )- rewatch - (understand)
+High Order Functions and Arrays (done) - (rewatch) - (understand)
+OOP Crash Course (done) - rewatch - (understand)
+Async JS Crash Course - (done) - (rewatch) - !understand
+AJAX Crash Course       (done) - (rewatch) - (understand)
+Fetch API Introduction  (done) - (rewatch) - understand
+Create a Custom PDF Viewer with JavaScript   (done) - rewatch - understand
+Quick Autocomplete App With JS & JSON  (done) - rewatch - understand
+Bookmarker Application (done) - rewatch - understand
+Pure JavaScript Type Writer Effect (done) - rewatch - understand
+Simple JavaScript Slideshow (done)
+Facebook Login & Graph API  (watched -  1/2 implementation) 
+Google Maps JavaScript API Tutorial (watched - 1/2 implementation)
+Google Geocode API & JavaScript Tutorial (watched - 1/2 implementation)
+Create a Modal (done)
+Full Screen Responsive Image Slider | No Libraries (done)
+Vanilla JS Number Facts APP ( Ajax & Fetch) (done) - (understood) - (assignment)
+Text to Speech (done)
+JavaScript ZipCode  (done) - (understood)
+Full Screen Image Slider (not neccessary - 3/4% replica of line22)
+Use Babel & Webpack (watched)
+Modern Image Gallery (watched)
+Animate your Font Awesome (done) - (understood)
+Build Reddit Search App (done)
+Star Ratings (done)
+Responsive Coming Soon Landing Page
+Drag & Drop (done)
+Fancy Form (!)
+Pet Find (!)
+Youtube API (!)
+Build a Speed Typing Game (done)
+Dynamic Landing Page (done)
+Rock Paper Scissors (done)
+JavaScript Password Generator (done)
+Animated Counter (done)
+Web Components Crash Course 
+Easy Frontend 
+Breathe & Relax (done)
+Build Minsweeper 
+Multiplayers Snake Game 
+Build Pac-Man Game 
+Vanilla JavaScript Search App 
+Touch Slider (done)
+Music Player
+Forward Head Posture Stuff 
+5 Projects 
+
+
+
+
+
+Make sure you watch at least 1hr of the tutorials downloaded everyday. 
+Make sure you task yourself and practice, practice and repractice as much as possible. 
+Check for the new versions of all (!) tasks.
+Links
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<script src="https://kit.fontawesome.com/8fd5bd0ae3.js" crossorigin="anonymous"></script>
+
+Fontawesome
+iconscout
+ionicons
+
+
+List of CSS Frameworks I've Been Introduced to, and Have Used. 
+a. Bootstrap.
+b. Materialize. 
+c. Tailwind. 
+d. Bulma. 
+e. 
+
+
+
+a. gpd host.com
+b. 
+
+WEBSITES TO BOOST MY FRONTEND SKILLS 
+A. Codewell 
+b. CSSBattle
+c. Treehouse
+d. Codepen challenges 
+e. JavaScript30
+f. Frontend Mentor
+
