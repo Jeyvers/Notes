@@ -1,0 +1,5 @@
+
+-> Props are being create with React.createElement() under the hood. 
+
+-> State machines
+- create logic that translates code from one state to another
